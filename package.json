@@ -1,0 +1,25 @@
+{
+  "name": "dad_jokes",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "joke.js",
+  "scripts": {
+    "start": "nodemon joke.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "express": "^4.18.2",
+    "inquirer": "^9.2.11",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
